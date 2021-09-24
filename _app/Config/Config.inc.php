@@ -5,7 +5,7 @@ if (!$WorkControlDefineConf):
      * URL DO SISTEMA
      */
     if($_SERVER['HTTP_HOST'] == 'localhost'):
-        define('BASE', 'https://localhost/harmoniser'); //Url raiz do site no localhost
+        define('BASE', 'https://localhost/milisol'); //Url raiz do site no localhost
     else:
         define('BASE', 'https://projetos.mxse.com.br/harmoniser'); //Url raiz do site no servidor
     endif;

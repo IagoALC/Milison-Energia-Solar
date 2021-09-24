@@ -7,7 +7,7 @@ if ($_SERVER['HTTP_HOST'] == 'localhost'):
     define('SIS_DB_HOST', 'localhost'); //Link do banco de dados no localhost
     define('SIS_DB_USER', 'root'); //Usuário do banco de dados no localhost
     define('SIS_DB_PASS', ''); //Senha  do banco de dados no localhost
-    define('SIS_DB_DBSA', 'bd_wc_harmoniser'); //Nome  do banco de dados no localhost
+    define('SIS_DB_DBSA', 'bd_wc_milisol'); //Nome  do banco de dados no localhost
 else:
     define('SIS_DB_HOST', 'localhost'); //Link do banco de dados no servidor
     define('SIS_DB_USER', 'mxjunior_user'); //Usuário do banco de dados no servidor
