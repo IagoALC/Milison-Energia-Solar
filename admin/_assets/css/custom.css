@@ -1,0 +1,20 @@
+/*  CUSTOM  */
+@media (max-width: 767px) {
+  .div-flex {
+    flex-direction: column !important;
+  }
+
+  .div-flex-1 {
+    width: 100% !important;
+  }
+
+  .div-flex-2 {
+    width: 100% !important;
+    margin-left: 0px !important;
+    margin-top: 1em !important;
+  }
+
+  .ima_cover {
+    max-height: 300px !important;
+  }
+}
