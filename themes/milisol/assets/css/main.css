@@ -259,7 +259,7 @@ h1 .featured {
 }
 
 .odd h1 .featured {
-    color: var(--white-color);
+    color: var(--primary-color);
 }
 
 h1 .featured:before {
@@ -653,7 +653,7 @@ section.section-2  { background-color: var(--section-2-bg-color);  background-im
 section.section-3  { background-color: var(--section-3-bg-color);  background-image: var(--section-3-bg-image); }
 section.section-4  { background-color: var(--section-4-bg-color);  background-image: var(--section-4-bg-image); }
 section.section-5  { background-color: var(--section-5-bg-color);  background-image: var(--section-5-bg-image); }
-section.section-6  { background-color: var(--section-6-bg-color);  background-image: var(--section-6-bg-image); }
+section.section-6  { background-color: var(--section-6-bg-color);  background-image: url("../../../../uploads/images/subscribe.jpg") }
 section.section-7  { background-color: var(--section-7-bg-color);  background-image: var(--section-7-bg-image); }
 section.section-8  { background-color: var(--section-8-bg-color);  background-image: var(--section-8-bg-image); }
 section.section-9  { background-color: var(--section-9-bg-color);  background-image: var(--section-9-bg-image); }
@@ -1896,14 +1896,14 @@ header .navbar-expand .navbar-brand .featured:before {
     width: calc(100% + 7.5px);
     height: 100%;
     border-radius: 100px 0 0 100px;
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     opacity: 0.15;
 }
 
 header .navbar-expand .navbar-brand .featured .first {
     position: relative;
     margin-right: -10px;
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 .navbar-expand .navbar-nav .nav-item {
@@ -1916,13 +1916,13 @@ header .navbar-expand .navbar-brand .featured .first {
 }
 
 .navbar-expand.top .navbar-nav .nav-item a:not(.btn) {
-    font-size: 0.85rem;
-    font-weight: 400;
+    font-size: 0.95rem;
+    font-weight: 600;
     color: var(--secondary-p-color);
 }
 
 .navbar-expand.top .navbar-nav .nav-item a:not(.btn):hover {
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 .navbar-expand .navbar-nav .nav-item a:not(.btn) {
@@ -1945,7 +1945,7 @@ header .navbar-expand .navbar-brand .featured .first {
 
 .navbar-expand .navbar-nav.items .nav-link:not(.btn):not(.title):hover,
 .navbar-expand .navbar-nav.icons .nav-link:not(.btn):not(.title):hover {
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 .navbar-expand .navbar-nav.items .nav-link.active:not(.btn):not(.title) {

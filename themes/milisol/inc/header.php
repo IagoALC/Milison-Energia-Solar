@@ -5,6 +5,7 @@
 <link rel="apple-touch-icon" href="<?= INCLUDE_PATH ?>/assets/images/apple-touch-icon.png">
 <link rel="apple-touch-icon" sizes="72x72" href="<?= INCLUDE_PATH ?>/assets/images/apple-touch-icon-72x72.png">
 <link rel="apple-touch-icon" sizes="114x114" href="<?= INCLUDE_PATH ?>/assets/images/apple-touch-icon-114x114.png">
+<link href="<?= INCLUDE_PATH ?>/assets/css/all.css" rel="stylesheet">
 
 <!-- ==============================================
         Vendor Stylesheet
@@ -53,14 +54,14 @@
 
     <!-- Top Navbar -->
     <nav class="navbar navbar-expand top">
-        <div class="container header">
+        <div class="container header" style="text-color: white;">
 
             <!-- Navbar Items [left] -->
-            <ul class="navbar-nav">
+            <!-- <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a href="<?= INCLUDE_PATH ?>/" class="nav-link pl-0"><i class="fas fa-clock mr-2"></i>Open Hours: Mon - Sat - 9:00 - 18:00</a>
+                    <a class="nav-link pl-0"><i class="fas fa-clock mr-2"></i>Respondemos o mais rápido possível</a>
                 </li>
-            </ul>
+            </ul> -->
 
             <!-- Nav holder -->
             <div class="ml-auto"></div>
@@ -68,25 +69,25 @@
             <!-- Navbar Items [right] -->
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a href="<?= INCLUDE_PATH ?>/" class="nav-link"><i class="fas fa-phone-alt mr-2"></i>+1 (305) 1234-5678</a>
+                    <a href="https://api.whatsapp.com/send?phone=21971191779" target="_blank" class="nav-link"><i class="fas fa-phone-alt mr-2"></i>(21) 97119-1779</a>
                 </li>
                 <li class="nav-item">
-                    <a href="<?= INCLUDE_PATH ?>/" class="nav-link"><i class="fas fa-envelope mr-2"></i>contatomilisol@gmail.com.br</a>
+                    <a href="mailto:" class="nav-link"><i class="fas fa-envelope mr-2"></i>contato.milisol@gmail.com</a>
                 </li>
             </ul>
 
             <!-- Navbar Icons -->
-            <ul class="navbar-nav icons">
+            <!-- <ul class="navbar-nav icons">
                 <li class="nav-item social">
-                    <a href="<?= INCLUDE_PATH ?>/" class="nav-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="/" class="nav-link"><i class="fab fa-facebook-f"></i></a>
                 </li>
                 <li class="nav-item social">
-                    <a href="<?= INCLUDE_PATH ?>/" class="nav-link"><i class="fab fa-twitter"></i></a>
+                    <a href="/" class="nav-link"><i class="fab fa-twitter"></i></a>
                 </li>
                 <li class="nav-item social">
-                    <a href="<?= INCLUDE_PATH ?>/" class="nav-link pr-0"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="/" class="nav-link pr-0"><i class="fab fa-linkedin-in"></i></a>
                 </li>
-            </ul>
+            </ul> -->
 
         </div>
     </nav>
@@ -96,18 +97,14 @@
         <div class="container header">
 
             <!-- Navbar Brand-->
-            <a class="navbar-brand" href="<?= INCLUDE_PATH ?>//">
+            <a class="navbar-brand" href="<?= BASE ?>/">
                 <span class="brand">
                     <span class="featured">
                         <span class="first">MILI</span>
                     </span>
                     <span class="last">SOL</span>
                 </span>
-
-                <!-- 
-                Custom Logo
-                <img src="<?= INCLUDE_PATH ?>/assets/images/logo.svg" alt="NEXGEN">
-            -->
+        
             </a>
 
             <!-- Nav holder -->
@@ -116,19 +113,13 @@
             <!-- Navbar Items -->
             <ul class="navbar-nav items">
                 <li class="nav-item">
-                    <a href="<?= BASE ?>/#header" class="smooth-anchor nav-link">HOME</a>
+                    <a href="<?= BASE ?>/" class="nav-link">HOME</a>
                 </li>
                 <li class="nav-item">
-                    <a href="<?= BASE ?>/#about" class="smooth-anchor nav-link">ABOUT</a>
+                    <a href="<?= BASE ?>/#about" class="nav-link">SOBRE</a>
                 </li>
                 <li class="nav-item">
-                    <a href="<?= BASE ?>/#services" class="smooth-anchor nav-link">SERVICES</a>
-                </li>
-                <li class="nav-item">
-                    <a href="<?= BASE ?>/#pricing" class="smooth-anchor nav-link">PRICING</a>
-                </li>
-                <li class="nav-item">
-                    <a href="<?= BASE ?>/#blog" class="smooth-anchor nav-link">BLOG</a>
+                    <a href="<?= BASE ?>/#process" class="nav-link">PROCESSO</a>
                 </li>
             </ul>
 
@@ -144,7 +135,7 @@
             <!-- Navbar Action -->
             <ul class="navbar-nav action">
                 <li class="nav-item ml-3">
-                    <a href="<?= BASE ?>/#contact" class="smooth-anchor btn ml-lg-auto primary-button">GET IN TOUCH</a>
+                    <a href="https://api.whatsapp.com/send?phone=21971191779" target="_blank" class="btn ml-lg-auto primary-button">Entre em Contato</a>
                 </li>
             </ul>
         </div>

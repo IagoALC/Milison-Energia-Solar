@@ -8,12 +8,12 @@
                 <div class="col-12 col-lg-3 footer-left">
 
                     <!-- Navbar Brand-->
-                    <a class="navbar-brand" href="<?= INCLUDE_PATH ?>//">
+                    <a class="navbar-brand" href="<?= INCLUDE_PATH ?>/">
                         <span class="brand">
                             <span class="featured">
-                                <span class="first">NEX</span>
+                                <span class="first">MILI</span>
                             </span>
-                            <span class="last">GEN</span>
+                            <span class="last">SOL</span>
                         </span>
 
                         <!-- 
@@ -21,64 +21,33 @@
                             <img src="<?= INCLUDE_PATH ?>/assets/images/logo.svg" alt="NEXGEN">
                         -->
                     </a>
-                    <p>A Functional HTML Template<br>for Corporate & Business.</p>
+                    <p>Energia do sol na sua vida</p>
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a href="<?= INCLUDE_PATH ?>/" class="nav-link">
+                            <a href="https://api.whatsapp.com/send?phone=21971191779" target="_blank" class="nav-link">
                                 <i class="fas fa-phone-alt mr-2"></i>
-                                +1 (305) 1234-5678
+                                (21) 97119-1779
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="<?= INCLUDE_PATH ?>/" class="nav-link">
+                            <a href="mailto:" class="nav-link">
                                 <i class="fas fa-envelope mr-2"></i>
-                                hello@example.com
+                                contato.milisol@gmail.com
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="<?= INCLUDE_PATH ?>/" class="nav-link">
-                                <i class="fas fa-map-marker-alt mr-2"></i>
-                                Main Avenue, 987
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="<?= INCLUDE_PATH ?>/#contact" class="mt-4 btn outline-button smooth-anchor">GET IN TOUCH</a>
+                            <a href="https://api.whatsapp.com/send?phone=21971191779" target="_blank" class="mt-4 btn outline-button">Entre em Contato</a>
                         </li>
                     </ul>
                 </div>
-                <div class="col-12 col-lg-9 p-0 footer-right">
+                <div class="col-12 col-lg-9 p-0 footer-right" style="display: flex; flex-direction: column; justify-content:end;">
                     <div class="row items">
                         <div class="col-12 col-lg-4 item">
                             <div class="card">
-                                <h4>About</h4>
-                                <a href="<?= INCLUDE_PATH ?>/"><i class="icon-arrow-right"></i>The Company</a>
-                                <a href="<?= INCLUDE_PATH ?>/"><i class="icon-arrow-right"></i>Institutional</a>
-                                <a href="<?= INCLUDE_PATH ?>/"><i class="icon-arrow-right"></i>Social & Events</a>
-                                <a href="<?= INCLUDE_PATH ?>/"><i class="icon-arrow-right"></i>Innovation</a>
-                                <a href="<?= INCLUDE_PATH ?>/"><i class="icon-arrow-right"></i>Environment</a>
-                                <a href="<?= INCLUDE_PATH ?>/"><i class="icon-arrow-right"></i>Technology</a>
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-4 item">
-                            <div class="card">
-                                <h4>Services</h4>
-                                <a href="<?= INCLUDE_PATH ?>/"><i class="icon-arrow-right"></i>Audit & Assurance</a>
-                                <a href="<?= INCLUDE_PATH ?>/"><i class="icon-arrow-right"></i>Financial Advisory</a>
-                                <a href="<?= INCLUDE_PATH ?>/"><i class="icon-arrow-right"></i>Analytics M&A</a>
-                                <a href="<?= INCLUDE_PATH ?>/"><i class="icon-arrow-right"></i>Middle Marketing</a>
-                                <a href="<?= INCLUDE_PATH ?>/"><i class="icon-arrow-right"></i>Legal Consulting</a>
-                                <a href="<?= INCLUDE_PATH ?>/"><i class="icon-arrow-right"></i>Regulatory Risk</a>
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-4 item">
-                            <div class="card">
-                                <h4>Support</h4>
-                                <a href="<?= INCLUDE_PATH ?>/"><i class="icon-arrow-right"></i>Responsibility</a>
-                                <a href="<?= INCLUDE_PATH ?>/"><i class="icon-arrow-right"></i>Terms of Use</a>
-                                <a href="<?= INCLUDE_PATH ?>/"><i class="icon-arrow-right"></i>About Cookies</a>
-                                <a href="<?= INCLUDE_PATH ?>/"><i class="icon-arrow-right"></i>Privacy Policy</a>
-                                <a href="<?= INCLUDE_PATH ?>/"><i class="icon-arrow-right"></i>Accessibility</a>
-                                <a href="<?= INCLUDE_PATH ?>/"><i class="icon-arrow-right"></i>Information</a>
+                                <h4>Site</h4>
+                                <a href="<?= BASE ?>/"><i class="fas fa-arrow-right"></i>Home</a>
+                                <a href="<?= BASE ?>/#about"><i class="fas fa-arrow-right"></i>Sobre</a>
+                                <a href="<?= BASE ?>/#process"><i class="fas fa-arrow-right"></i>Processo</a>
                             </div>
                         </div>
                     </div>
@@ -92,13 +61,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-6 p-3 text-center text-lg-left">
-                    <p>Enjoy the low price. We are tracking any intention of piracy.</p>
-                    <!--
-                        Suggestion: Replace the text above with a description of your website.
-                     -->
                 </div>
                 <div class="col-12 col-md-6 p-3 text-center text-lg-right">
-                    <p>© 2020 NEXGEN is Proudly Powered by <a href="<?= INCLUDE_PATH ?>/https://themeforest.net/user/codingsdev" target="_blank">Codings</a>.</p>
+                    <p>© <?= date("Y") ?> Todos os Direitos Reservados a <a href="" target="_blank">Milisol</a>.</p>
                 </div>
             </div>
         </div>
@@ -261,7 +226,7 @@
 
 <!-- Scroll [to top] -->
 <div id="scroll-to-top" class="scroll-to-top">
-    <a href="<?= INCLUDE_PATH ?>/#header" class="smooth-anchor">
+    <a href="#header" class="smooth-anchor">
         <i class="fas fa-arrow-up"></i>
     </a>
 </div>
