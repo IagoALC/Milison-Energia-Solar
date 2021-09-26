@@ -486,11 +486,11 @@ jQuery(function($) {
     }
     
     let preloader = $('.preloader');
-    let preloader_timeout = ( preloader.data('timeout') - 800);
+    let preloader_timeout = ( preloader.data('timeout') - 200);
 
     initCounter('.counter.preloader', '.counter.preloader .radial', preloader_timeout);
-    initCounter('.counter.funfacts', '.counter.funfacts .radial', 5000);
-    initCounter('.counter.skills', '.counter.skills .radial', 5000);
+    initCounter('.counter.funfacts', '.counter.funfacts .radial', 3000);
+    initCounter('.counter.skills', '.counter.skills .radial', 3000);
 })
 
 /*----------------------------------------------
