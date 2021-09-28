@@ -6,7 +6,7 @@
             <div class="swiper-slide slide-center">
 
                 <!-- Media -->
-                <video class="full-image to-bottom" data-mask="70" src="<?= BASE ?>/uploads/video-banner.mp4" autoplay muted loop></video>
+                <video class="full-image to-bottom" data-mask="70" src="<?= BASE ?>/uploads/video-banner.mp4" autoplay muted loop lazy></video>
 
                 <div class="slide-content row">
                     <div class="col-12 d-flex justify-content-start justify-content-md-center inner">
