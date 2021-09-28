@@ -10,9 +10,9 @@ if ($_SERVER['HTTP_HOST'] == 'localhost' || $_SERVER['HTTP_HOST'] == 'www.localh
     define('SIS_DB_DBSA', 'bd_wc_milisol'); //Nome  do banco de dados no localhost
 else:
     define('SIS_DB_HOST', 'localhost'); //Link do banco de dados no servidor
-    define('SIS_DB_USER', 'mxjunior_user'); //Usuário do banco de dados no servidor
-    define('SIS_DB_PASS', 'j{O%!~}eYTPP2'); //Senha  do banco de dados no servidor
-    define('SIS_DB_DBSA', 'mxjunior_harmoniser'); //Nome  do banco de dados no servidor
+    define('SIS_DB_USER', 'u974171410_milisol'); //Usuário do banco de dados no servidor
+    define('SIS_DB_PASS', 'Milisol1234'); //Senha  do banco de dados no servidor
+    define('SIS_DB_DBSA', 'u974171410_milisol'); //Nome  do banco de dados no servidor
 endif;
 /*
  * CACHE E CONFIG

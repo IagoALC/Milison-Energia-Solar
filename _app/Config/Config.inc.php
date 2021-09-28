@@ -7,7 +7,7 @@ if (!$WorkControlDefineConf):
     if($_SERVER['HTTP_HOST'] == 'localhost' || $_SERVER['HTTP_HOST'] == 'www.localhost'):
         define('BASE', 'https://www.localhost/milisol'); //Url raiz do site no localhost
     else:
-        define('BASE', 'https://projetos.mxse.com.br/harmoniser'); //Url raiz do site no servidor
+        define('BASE', 'https://www.milisol.com.br'); //Url raiz do site no servidor
     endif;
     define('THEME', 'wc_default'); //template do site
 endif;
