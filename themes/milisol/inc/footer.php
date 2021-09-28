@@ -8,7 +8,7 @@
                 <div class="col-12 col-lg-3 footer-left">
 
                     <!-- Navbar Brand-->
-                    <a class="navbar-brand" href="<?= INCLUDE_PATH ?>/">
+                    <a class="navbar-brand" href="<?= BASE ?>/">
                         <span class="brand">
                             <span class="featured">
                                 <span class="first">MILI</span>
@@ -30,9 +30,9 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="mailto:" class="nav-link">
+                            <a href="mailto:contato@milisol.com.br" class="nav-link">
                                 <i class="fas fa-envelope mr-2"></i>
-                                contato.milisol@gmail.com
+                                contato@milisol.com.br
                             </a>
                         </li>
                         <li class="nav-item">
@@ -208,7 +208,7 @@
     <div class="modal-dialog modal-dialog-slideout" role="document">
         <div class="modal-content full">
             <div class="modal-header" data-dismiss="modal">
-                <i class="icon-close fas fa-arrow-right"></i>
+                <i class="fas fa-times fas fa-arrow-right"></i>
             </div>
             <div class="menu modal-body">
                 <div class="row w-100">

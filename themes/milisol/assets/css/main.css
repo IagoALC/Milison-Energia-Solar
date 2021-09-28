@@ -653,7 +653,7 @@ section.section-2  { background-color: var(--section-2-bg-color);  background-im
 section.section-3  { background-color: var(--section-3-bg-color);  background-image: var(--section-3-bg-image); }
 section.section-4  { background-color: var(--section-4-bg-color);  background-image: var(--section-4-bg-image); }
 section.section-5  { background-color: var(--section-5-bg-color);  background-image: var(--section-5-bg-image); }
-section.section-6  { background-color: var(--section-6-bg-color);  background-image: url("../../../../uploads/images/subscribe.jpg") }
+section.section-6  { background-color: var(--section-6-bg-color);  background-image: url("../../../../uploads/images/subscribe.jpg") !important; }
 section.section-7  { background-color: var(--section-7-bg-color);  background-image: var(--section-7-bg-image); }
 section.section-8  { background-color: var(--section-8-bg-color);  background-image: var(--section-8-bg-image); }
 section.section-9  { background-color: var(--section-9-bg-color);  background-image: var(--section-9-bg-image); }

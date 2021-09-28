@@ -72,7 +72,7 @@
                     <a href="https://api.whatsapp.com/send?phone=21971191779" target="_blank" class="nav-link"><i class="fas fa-phone-alt mr-2"></i>(21) 97119-1779</a>
                 </li>
                 <li class="nav-item">
-                    <a href="mailto:" class="nav-link"><i class="fas fa-envelope mr-2"></i>contato.milisol@gmail.com</a>
+                    <a href="mailto:contato@milisol.com.br" class="nav-link"><i class="fas fa-envelope mr-2"></i>contato@milisol.com.br</a>
                 </li>
             </ul>
 
@@ -113,13 +113,13 @@
             <!-- Navbar Items -->
             <ul class="navbar-nav items">
                 <li class="nav-item">
-                    <a href="<?= BASE ?>/" class="nav-link">HOME</a>
+                    <a href="<?= BASE ?>" class="nav-link">HOME</a>
                 </li>
                 <li class="nav-item">
-                    <a href="<?= BASE ?>/#about" class="nav-link">SOBRE</a>
+                    <a href="milisol/#about" class="nav-link">SOBRE</a>
                 </li>
                 <li class="nav-item">
-                    <a href="<?= BASE ?>/#process" class="nav-link">PROCESSO</a>
+                    <a href="milisol/#process" class="nav-link">PROCESSO</a>
                 </li>
             </ul>
 
@@ -127,7 +127,7 @@
             <ul class="navbar-nav toggle">
                 <li class="nav-item">
                     <a href="<?= INCLUDE_PATH ?>/" class="nav-link" data-toggle="modal" data-target="#menu">
-                        <i class="icon-menu m-0"></i>
+                    <i class="fas fa-bars m-0"></i>
                     </a>
                 </li>
             </ul>
