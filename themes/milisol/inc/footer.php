@@ -45,7 +45,7 @@
                         <div class="col-12 col-lg-4 item">
                             <div class="card">
                                 <h4>Site</h4>
-                                <a href="<?= BASE ?>/"><i class="fas fa-arrow-right"></i>Home</a>
+                                <a href="<?= BASE ?>/#hero"><i class="fas fa-arrow-right"></i>Home</a>
                                 <a href="<?= BASE ?>/#about"><i class="fas fa-arrow-right"></i>Sobre</a>
                                 <a href="<?= BASE ?>/#process"><i class="fas fa-arrow-right"></i>Processo</a>
                             </div>

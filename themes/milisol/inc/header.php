@@ -113,7 +113,7 @@
             <!-- Navbar Items -->
             <ul class="navbar-nav items">
                 <li class="nav-item">
-                    <a href="<?= BASE ?>" class="nav-link">HOME</a>
+                    <a href="#hero" class="nav-link">HOME</a>
                 </li>
                 <li class="nav-item">
                     <a href="#about" class="nav-link">SOBRE</a>
