@@ -116,10 +116,10 @@
                     <a href="<?= BASE ?>" class="nav-link">HOME</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#about" class="nav-link">SOBRE</a>
+                    <a href="<?= BASE ?>/#about" class="nav-link">SOBRE</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#process" class="nav-link">PROCESSO</a>
+                    <a href="<?= BASE ?>/#process" class="nav-link">PROCESSO</a>
                 </li>
             </ul>
 
