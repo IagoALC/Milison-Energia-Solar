@@ -116,10 +116,10 @@
                     <a href="<?= BASE ?>" class="nav-link">HOME</a>
                 </li>
                 <li class="nav-item">
-                    <a href="milisol/#about" class="nav-link">SOBRE</a>
+                    <a href="#about" class="nav-link">SOBRE</a>
                 </li>
                 <li class="nav-item">
-                    <a href="milisol/#process" class="nav-link">PROCESSO</a>
+                    <a href="#process" class="nav-link">PROCESSO</a>
                 </li>
             </ul>
 
