@@ -24,7 +24,7 @@
                     <p>Energia do sol na sua vida</p>
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a href="https://api.whatsapp.com/send?phone=21971191779" target="_blank" class="nav-link">
+                            <a href="https://api.whatsapp.com/send?phone=5521971191779" target="_blank" class="nav-link">
                                 <i class="fas fa-phone-alt mr-2"></i>
                                 (21) 97119-1779
                             </a>
@@ -36,7 +36,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="https://api.whatsapp.com/send?phone=21971191779" target="_blank" class="mt-4 btn outline-button">Entre em Contato</a>
+                            <a href="https://api.whatsapp.com/send?phone=5521971191779" target="_blank" class="mt-4 btn outline-button">Entre em Contato</a>
                         </li>
                     </ul>
                 </div>

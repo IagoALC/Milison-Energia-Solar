@@ -19,7 +19,7 @@
                             <!-- Action -->
                             <div data-aos="fade-up" data-aos-delay="1000" class="buttons">
                                 <div class="d-sm-inline-flex">
-                                    <a href="https://api.whatsapp.com/send?phone=21971191779" target="_blank" class="mt-4 btn primary-button">Entre Em Contato</a>
+                                    <a href="https://api.whatsapp.com/send?phone=5521971191779" target="_blank" class="mt-4 btn primary-button">Entre Em Contato</a>
                                     <a href="<?= BASE ?>/#process" class="ml-sm-4 mt-4 btn outline-button">Saiba Mais</a>
                                 </div>
                             </div>
